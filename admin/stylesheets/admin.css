@@ -1,0 +1,220 @@
+ @charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align:left;
+	padding:0;
+	margin:0;
+	padding-top:46px;}
+
+i {
+	font-size:10px;
+}
+
+#nav {
+	background:#00A9CC;
+  color:#FF0000;
+	width:100%;
+	height:35px;
+	border-bottom:1px solid #DEDEDE;
+	position:fixed;
+	top:0;
+	left:0;
+	padding:5px 20px;}
+	
+#nav .left {
+	float:left;
+	vertical-align:middle;
+	font-size:18px;
+	line-height:35px;
+}
+
+.boxc {
+	margin:20px;
+}
+
+#nav .right {
+	margin:-2.5px 0;
+	float:right;
+	vertical-align:middle;
+	font-size:12px;
+	line-height:14px;
+	color:#000;
+	width:200px;
+}
+	
+.akunthumb {
+	height:35px;
+	line-height:35px;
+	padding:2.5px 15px;
+	cursor:pointer;
+	color:#FFF;
+}
+
+
+.akunthumb img{
+	vertical-align:middle;
+	width:14px;
+	height:14px;
+	margin:0 15px;
+}
+
+.menupop {
+	float:right;
+	display:none;
+	position:relative;
+	top:2px;
+	background:#FFF;
+	width:150px;
+	padding:10px;
+	font-size:12px;
+	box-shadow:2px 2px 2px #DEDEDE;
+}
+
+
+#content {
+	overflow:hidden;
+}
+
+#side {
+	float:left;
+	width:180px;
+	padding:10px 20px;
+	font-size:14px;
+  background:#F3F3F3;
+  margin-right:15px;
+	height:100%;
+	position:fixed;}
+	
+.navmenu ul,.menupop ul, .navmenu ul li,.menupop ul li,#side ul,#side ul li {
+	margin:0;
+	list-style:none;
+	padding:0;}
+
+.menupop ul li {
+	margin:10px ;
+	padding:0 5px;
+}
+
+.menupop ul li img{
+	width:16px;
+	height:16px;
+	margin-right:5px;
+}
+
+#side ul {
+	display:block;
+	margin-bottom:20px;
+	border-bottom:1px solid #CCC;
+}
+	
+#side ul li {
+	margin:5px;
+	line-height:22px;
+	vertical-align:middle;
+}	
+	
+#side ul li:first-child {
+	font-weight:bold;
+	font-size:15px;
+  color:#00A9CC;
+}
+
+#side ul li img {
+	width:18px;
+	height:auto;
+	vertical-align:middle;
+	margin-right:7.5px;
+}
+
+a {
+	color: rgb(51, 51, 51);}
+	
+.menupop ul li a,#side ul li a {
+  display:inline-block;
+  transition:margin-left 0.5s, color 0.5s;
+}
+
+.menupop ul li a:hover,#side ul li a:hover {
+	color:#00A9CC;
+  margin-left:10px;
+}
+
+#content {
+	float:left;
+	margin-left:240px;
+	max-width:850px;
+	background:#FFF;
+	width:800px;
+}
+
+.add {
+	font-size:14px;
+	line-height:20px;
+	vertical-align:middle;
+	display:inline-block;
+	margin:10px 0;	
+}
+
+table input[type='text'],table textarea {
+	width:450px;
+	font-size:13px;
+}
+
+.notifmerah, .notifhijau {
+	margin:10px 0;
+}
+
+table textarea {
+	width:450px !important;
+}
+
+table select valid{
+	background:none;
+}
+
+.bookitem {
+	float:left;
+	width:150px;
+	height:200px;
+	border:1px solid #DEDEDE;
+	margin:5px 10px 5px 0;
+	text-align:center;
+}
+
+.bookitem b{
+	display:block;
+	margin:5px 0 2.5px 0;
+	height:30px;
+}
+
+.addb {
+	float:right;
+}
+
+#rakbuku {
+	width:580px;
+	float:left;
+}
+
+.bookimg {
+	width:90px;
+	height:120px;
+}
+
+#keranjang {
+	width:220px;
+	float:left;
+}
+
+#cartbox {
+	border:1px solid #DEDEDE;
+	min-height:150px;
+	margin:10px 0;
+	text-align:center;
+}
+
+#cartbox img {
+	width:125px;
+	height:150px;
+}

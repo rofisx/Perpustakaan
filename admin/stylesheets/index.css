@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(fonts/opensans300.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(fonts/opensans400.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(fonts/opensans600.woff) format('woff');
+}
+
+body {
+  font-family:'Open Sans', 'Segoe UI light', Tahoma, Helvetica, sans-serif;
+  font-size:13px;
+  text-align:center;
+  color:#333;
+  background:#FFF;}
+ 
+img {
+  border:none;}
+
+a {
+  text-decoration:none;
+   border:none;}
+	 
+.thijau,.tmerah,.tkuning {
+  display:inline-block;
+  appearance:none;
+  padding:5px 15px;
+  border:none;
+  background:#66CC00;
+  color:#FFF;
+  font-weight:bold;
+  cursor:pointer;}
+  
+.thijau {
+  background:#66CC00;}
+
+.thijau:hover {
+  background:#94D354;}
+  
+.tkuning {
+  background:#D5E300;}
+  
+.tkuning:hover {
+  background:#E5EE60;}
+  
+.tmerah {
+  background:#EA6C00;}
+  
+.tmerah:hover {
+  background:#F2A360;}
+
+/* CSS Document */
+body {padding:0; margin:0; text-align:center;}
+#pagewrapper {margin:0 auto; width:1024px; padding:5px 0; text-align:left;}
+
+#nav {position:static; background:none; color:#000; padding:5px 0 10px 0; border-bottom:1px solid #DEDEDE;}
+
+#nav .left {font-size:20px; padding-right:40px; border-right:1px solid #DEDEDE; text-align:left;}
+
+input:valid {	background:none; 	border:none; }
+input:invalid {	background:none; 	border:none; }
+
+.metrosearch {border:2px solid #ADADAD; height:24px; padding:2.5px 10px; width:200px; vertical-align:24px;}
+.metrosearch img{width:24px; height:24px; vertical-align:middle;}
+
+.metrosearch input{border:none; color:#ADADAD vertical-align:middle;}
+
+.navmenu {margin:10px 0;}
+.navmenu ul li{display:inline-block; margin-right:15px; font-size:14px}
+.tanggal {float:right;}
+
+.content {width:100%; height:300px; margin-top:10px;}
+
+.block-outer {
+	overflow:hidden;
+}
+.block-title {
+	font-size:16px;
+	margin:10px 0;
+}
+
+.block-inner {
+	overflow:hidden;
+	background:#DEDEDE;
+	padding:5px;
+	color:#FFF;
+}
+
+.blocklogin input{
+	width:100px;
+	margin:4px;
+	border:2px solid #FFF;
+	color:#FFF;
+}
+
+.lbuku {
+	width:90px;
+	height:125px;
+	border:1px solid #FFF;
+	float:left;
+	margin-right:20px;
+}
+
+.lbuku img{
+	width:60px;
+	height:70px;
+}
